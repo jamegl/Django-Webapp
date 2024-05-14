@@ -12,6 +12,9 @@ function Note({ note, onDelete }) {
             <button className="delete-button" onClick={() => onDelete(note.id)}>
                 Delete
             </button>
+            <button className="edit-button" onClick={() => onEdit(note.id)}>
+                Edit
+            </button>
         </div>
     );
 }

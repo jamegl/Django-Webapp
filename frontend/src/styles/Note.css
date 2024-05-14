@@ -26,8 +26,23 @@
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s;
+  margin-right: 10px; /* Added space between buttons */
+}
+
+.edit-button {
+  background-color: #007bff; /* Blue */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
 .delete-button:hover {
   background-color: #d32f2f; /* Darker red */
+}
+
+.edit-button:hover {
+  background-color: #0056b3; /* Darker blue */
 }
